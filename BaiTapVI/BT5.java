@@ -53,18 +53,18 @@
 //        catalogName = sc.nextLine().trim();
 //        //Validate productStatus:
 //        while(true){
-//            System.out.println("nhap trang thai san pham (0: dang ban, 1: het hang, 2: khong ban):");
+//            System.out.println("nhập trạng thái sản phẩm (0: đang bán, 1: hết hàng, 2: không bán):");
 //            String productStatusInput = sc.nextLine();
 //            if (Pattern.matches("[012]",productStatusInput)){
 //                productStatus = Integer.parseInt(productStatusInput);
 //                break;
-//            }else System.err.println("trang thai san pham, chi nhan 1 trong cac trang thai nhu sau (0: dang ban, 1: het hang, 2: khong ban)");
+//            }else System.err.println("trạng thái sản phẩm, chi nhận 1 trong các trạng thái như sau (0: đang bán, 1: hết hàng, 2: không bán)");
 //        }
 //        //trang thai san pham chi nhan 1 trong 3 gia tri Dang Ban, Het Hang, Khong Ban
 //        switch(productStatus){
-//            case 0 -> productStatusDisplay = "Dang Ban";
-//            case 1 -> productStatusDisplay = "Het Hang";
-//            case 2 -> productStatusDisplay = "Khong Ban";
+//            case 0 -> productStatusDisplay = "Đang Bán";
+//            case 1 -> productStatusDisplay = "Hết Hàng";
+//            case 2 -> productStatusDisplay = "không Bán";
 //            default -> productStatusDisplay = "Invalid choice";
 //        }
 //        System.out.println(createdDate);
