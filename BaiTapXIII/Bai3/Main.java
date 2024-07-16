@@ -14,7 +14,7 @@ public class Main {
         List<Map.Entry<Integer, Integer>> list = new ArrayList<>(hashMap.entrySet());
 
         // Sắp xếp danh sách list dựa trên giá trị tăng dần
-        list.sort(Comparator.comparing(Map.Entry::getValue));
+        list.sort(Map.Entry.comparingByValue());
         // In danh sách đã sắp xếp
         for (Map.Entry<Integer, Integer> entry : list) {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
